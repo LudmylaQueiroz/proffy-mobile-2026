@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">Proffy</string>
+    <!-- Outras strings existentes do projeto... -->
+
+    <!-- Fluxo Esqueci Minha Senha -->
+    <string name="forgot_password_title">Esqueceu sua senha?</string>
+    <string name="forgot_password_subtitle">Não esquenta, vamos dar um jeito nisso.</string>
+    <string name="email_label">E-mail</string>
+    <string name="btn_state_initial">Entrar</string>
+    <string name="btn_state_valid">Enviar</string>
+    <string name="error_invalid_email">Digite um e-mail válido</string>
 </resources>

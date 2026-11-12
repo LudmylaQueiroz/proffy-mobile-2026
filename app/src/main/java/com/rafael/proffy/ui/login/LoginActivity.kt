@@ -8,6 +8,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.rafael.proffy.R
 import com.rafael.proffy.databinding.ActivityLoginBinding
+import com.rafael.proffy.ui.forgot.ForgotPasswordActivity
 import com.rafael.proffy.ui.register.RegisterStepOneActivity
 
 class LoginActivity : AppCompatActivity() {
@@ -31,6 +32,11 @@ class LoginActivity : AppCompatActivity() {
 
         buttonRegister.setOnClickListener {
             handleRegister()
+        }
+
+        binding.buttonForgot.setOnClickListener {
+            val intent = Intent(this, ForgotPasswordActivity::class.java)
+            startActivity(intent)
         }
     }
 

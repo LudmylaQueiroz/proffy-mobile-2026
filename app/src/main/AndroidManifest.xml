@@ -33,5 +33,9 @@
             </intent-filter>
         </activity>
     </application>
+    <activity
+        android:name=".ui.forgot.ForgotPasswordActivity"
+        android:exported="false"
+        android:windowSoftInputMode="adjustResize" />
 
 </manifest>
